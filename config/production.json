@@ -1,0 +1,195 @@
+{
+  "dbConfig": {
+    "host": "localhost",
+    "port": 27017,
+    "dbName": "jirasysidapi"
+  },
+  "JiraConfig": {
+    "apiUrl": "http://desktop-qdr5itr:8080",
+    "userName": "Admin",
+    "password": "Concentra4168",
+    "services": {
+      "login": "/rest/auth/1/session",
+      "getIssue": "/rest/api/2/issue/",
+      "createIssue": "/rest/api/2/issue"
+    }
+  },
+  "SYSIdConfig": {
+    "apiUrl": "http://ironman:8081/api/v1",
+    "userName": "SysAid",
+    "accoundId": "ministeriodehacienda",
+    "password": "Concentra123",
+    "services": {
+      "login": "/login",
+      "sr": "/sr/"
+    }
+  },
+  "Mappings": {
+    "project":{
+      "sysaidKey": "project",
+      "jiraKey": "project",
+      "property": "key",
+      "value": "ESG" 
+    },
+    "title":{
+      "sysaidKey": "title",
+      "jiraKey": "summary"
+    },
+    "description":{
+      "sysaidKey": "description",
+      "jiraKey": "description"
+    },
+    "priotity":{
+      "sysaidKey": "priority",
+      "jiraKey": "priority",
+      "property": "id"
+    },
+    "sysaidTicketId":{
+      "sysaidKey": "id",
+      "jiraKey": "customfield_10902"
+    },
+    "jiraIssueId":{
+      "sysaidKey": "CustomColumn16sr",
+      "jiraKey": "id"
+    },
+    "issueType":{
+      "sysaidKey": "CustomColumn12sr",
+      "jiraKey": "issuetype",
+      "property": "id"
+    },
+    "aplication":{
+      "sysaidKey": "CustomColumn8sr",
+      "jiraKey": "customfield_10206",
+      "property": "id"
+    },
+    "componenet":{
+      "sysaidKey": "CustomColumn9sr",
+      "jiraKey": "customfield_10207",
+      "property": "id"
+    },
+    "reculsoRequerido":{
+      "sysaidKey": "CustomColumn6sr",
+      "jiraKey": "customfield_10903"
+    },
+    "branch":{
+      "sysaidKey": "CustomColumn7sr",
+      "jiraKey": "customfield_10810"
+    },
+    "scriptAntes":{
+      "sysaidKey": "CustomColumn3sr",
+      "jiraKey": "customfield_10500"
+    },
+    "scriptDespues":{
+      "sysaidKey": "CustomColumn4sr",
+      "jiraKey": "customfield_10600"
+    },
+    "analysis":{
+      "sysaidKey": "CustomColumn11sr",
+      "jiraKey": "customfield_10300",
+      "property": "id"
+    },
+    "Reporte":{
+      "sysaidKey": "CustomColumn5sr",
+      "jiraKey": "customfield_10501"
+    }
+  },
+  "MappingFildOptions": {
+    "issueType": [{
+        "sysaidKey": "1",
+        "jiraKey": "10102"
+      },{
+        "sysaidKey": "2",
+        "jiraKey": "10100"
+      },{
+        "sysaidKey": "3",
+        "jiraKey": "10001"
+      }
+    ],
+    "analysis": [{
+        "sysaidKey": "1",
+        "jiraKey": "10200"
+      },{
+        "sysaidKey": "2",
+        "jiraKey": "10201"
+      },{
+        "sysaidKey": "2",
+        "jiraKey": "10202"
+      },{
+        "sysaidKey": "4",
+        "jiraKey": "10203"
+      },{
+        "sysaidKey": "5",
+        "jiraKey": "10204"
+      },{
+        "sysaidKey": "6",
+        "jiraKey": "10205"
+      },{
+        "sysaidKey": "7",
+        "jiraKey": "10206"
+      },{
+        "sysaidKey": "8",
+        "jiraKey": "10207"
+      }
+    ],
+    "aplication": [{
+        "sysaidKey": "1",
+        "jiraKey": "10100"
+      },{
+        "sysaidKey": "2",
+        "jiraKey": "10101"
+      },{
+        "sysaidKey": "3",
+        "jiraKey": "10102"
+      },{
+        "sysaidKey": "4",
+        "jiraKey": "10103"
+      }
+    ],
+    "componenet": [{
+        "sysaidKey": "1",
+        "jiraKey": "10104"
+      },{
+        "sysaidKey": "2",
+        "jiraKey": "10105"
+      },{
+        "sysaidKey": "3",
+        "jiraKey": "10106"
+      },{
+        "sysaidKey": "4",
+        "jiraKey": "10107"
+      },{
+        "sysaidKey": "5",
+        "jiraKey": "10108"
+      },{
+        "sysaidKey": "6",
+        "jiraKey": "10109"
+      },{
+        "sysaidKey": "7",
+        "jiraKey": "10208"
+      },{
+        "sysaidKey": "8",
+        "jiraKey": "10209"
+      },{
+        "sysaidKey": "9",
+        "jiraKey": "10210"
+      }
+    ],
+    "priotity": [{
+        "sysaidKey": "1",
+        "jiraKey": "1"
+      },{
+        "sysaidKey": "2",
+        "jiraKey": "2"
+      },{
+        "sysaidKey": "3",
+        "jiraKey": "3"
+      },{
+        "sysaidKey": "4",
+        "jiraKey": "4"
+      },{
+        "sysaidKey": "5",
+        "jiraKey": "5"
+      }
+    ]
+  }
+}

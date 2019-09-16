@@ -1,0 +1,37 @@
+{
+  "dbConfig": {
+    "host": "localhost",
+    "port": 27017,
+    "dbName": "jirasysidapi"
+  },
+  "defaultUser": {
+    "name": "admin",
+    "password": "a@123456"
+  },
+  "JiraConfig": {
+    "hostName": "LAPTOP-4C70OL6A",
+    "port": 8080,
+    "userName": "Admin",
+    "password": "a@123456",
+    "services": {
+      "login": "/rest/auth/1/session",
+      "getIssue": "/rest/api/2/issue/",
+      "createIssue": "/rest/api/2/issue",
+      "getFields": "/rest/api/2/field",
+      "getFieldOptions": "/rest/api/2/issue/createmeta?expand=projects.issuetypes.fields"
+    }
+  },
+  "SYSIdConfig": {
+    "hostName": "ironman",
+    "port": "8081",
+    "userName": "SysAid",
+    "accoundId": "ministeriodehacienda",
+    "password": "Concentra123",
+    "services": {
+      "login": "/api/v1/login",
+      "sr": "/api/v1/sr/",
+      "getFields": "/api/v1/sr/template",
+      "getFieldOption": "/api/v1/list/"
+    }
+  }
+}
